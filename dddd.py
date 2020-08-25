@@ -43,4 +43,5 @@ async def on_member_join(member):
                 await message.channel.send(embed=embed)
         
 
-client.run('NzMyMjE2Njg0NTE2OTk5MTk4.XwxX7Q.aAxk7065OCZLSIlCCKIOT7Et-3E')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
